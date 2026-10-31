@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "id": "srd-pt-br",
+      "locale": "pt-BR",
+      "label": "Português (Brasil)",
+      "version": "2026.10.30.7",
+      "url": "pt-BR.2026.10.30.7.json",
+      "sha256": "4dc1ba5d95d0f789061162be5c178910a567306969305f58835bf6a337916caf",
+      "bytes": 5069910,
+      "entries": 2513
+    }
+  ]
+}
