@@ -5,11 +5,11 @@
       "id": "srd-pt-br",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.10.30.7",
-      "url": "pt-BR.2026.10.30.7.json",
-      "sha256": "4dc1ba5d95d0f789061162be5c178910a567306969305f58835bf6a337916caf",
-      "bytes": 5069910,
-      "entries": 2513
+      "version": "2026.10.30.12",
+      "url": "pt-BR.2026.10.30.12.json",
+      "sha256": "1a1eb4e05c959e457a70481eef546d1819c990d08edf25851cb4521612c08fdf",
+      "bytes": 5075395,
+      "entries": 2521
     }
   ]
 }
