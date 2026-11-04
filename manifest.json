@@ -197,6 +197,17 @@
       "bytes": 1975288,
       "entries": 1660,
       "source": "xphb"
+    },
+    {
+      "id": "pt-br-xdmg",
+      "locale": "pt-BR",
+      "label": "Português (Brasil)",
+      "version": "2026.11.04.3",
+      "url": "pt-BR.2026.11.04.3.xdmg.json",
+      "sha256": "1b2fb537498243b65788fc5926e88a0e8a272966e8c67050b9403e47348ffe13",
+      "bytes": 477310,
+      "entries": 636,
+      "source": "xdmg"
     }
   ]
 }
