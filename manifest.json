@@ -202,10 +202,10 @@
       "id": "pt-br-xdmg",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.04.3",
-      "url": "pt-BR.2026.11.04.3.xdmg.json",
-      "sha256": "1b2fb537498243b65788fc5926e88a0e8a272966e8c67050b9403e47348ffe13",
-      "bytes": 477310,
+      "version": "2026.11.04.4",
+      "url": "pt-BR.2026.11.04.4.xdmg.json",
+      "sha256": "c24fa5e46513fc419b38fa525745874bd181421d57fdb425d0e77d161bd80f52",
+      "bytes": 493310,
       "entries": 636,
       "source": "xdmg"
     }
