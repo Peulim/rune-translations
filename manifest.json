@@ -202,11 +202,11 @@
       "id": "pt-br-xdmg",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.04.6",
-      "url": "pt-BR.2026.11.04.6.xdmg.json",
-      "sha256": "d80162d0253e917b62061ad8608afef9516780b59a3a3fd614ecea6431aa2e8c",
-      "bytes": 845966,
-      "entries": 636,
+      "version": "2026.11.04.8",
+      "url": "pt-BR.2026.11.04.8.xdmg.json",
+      "sha256": "64969776c6cb5ae27cfd2b6ada242e3072df8a276941c9a0243c86acaae56ab3",
+      "bytes": 915438,
+      "entries": 638,
       "source": "xdmg"
     }
   ]
