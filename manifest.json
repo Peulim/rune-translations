@@ -208,6 +208,61 @@
       "bytes": 926477,
       "entries": 647,
       "source": "xdmg"
+    },
+    {
+      "id": "pt-br-efa",
+      "locale": "pt-BR",
+      "label": "Português (Brasil)",
+      "version": "2026.11.07.1",
+      "url": "pt-BR.2026.11.07.1.efa.json",
+      "sha256": "66226b170c1c133629514af17ed2fb6942bf54d527bd583c8ba82ef7b6d5f103",
+      "bytes": 415690,
+      "entries": 171,
+      "source": "efa"
+    },
+    {
+      "id": "pt-br-fraif",
+      "locale": "pt-BR",
+      "label": "Português (Brasil)",
+      "version": "2026.11.07.1",
+      "url": "pt-BR.2026.11.07.1.fraif.json",
+      "sha256": "f5067279cf62c80c79186c879c8a24b8b89b5fa05047955ee80427163e38b8ee",
+      "bytes": 306956,
+      "entries": 60,
+      "source": "fraif"
+    },
+    {
+      "id": "pt-br-lfl",
+      "locale": "pt-BR",
+      "label": "Português (Brasil)",
+      "version": "2026.11.07.1",
+      "url": "pt-BR.2026.11.07.1.lfl.json",
+      "sha256": "336b55a0d0e7ac2a77cd2652d726c5ec73ca9c86781a6da52c30de7307075464",
+      "bytes": 103939,
+      "entries": 27,
+      "source": "lfl"
+    },
+    {
+      "id": "pt-br-abh",
+      "locale": "pt-BR",
+      "label": "Português (Brasil)",
+      "version": "2026.11.07.1",
+      "url": "pt-BR.2026.11.07.1.abh.json",
+      "sha256": "907290b705288fb7fdd3114ef186265ed49ff4dde344dd3f2369e74a16c20091",
+      "bytes": 73831,
+      "entries": 24,
+      "source": "abh"
+    },
+    {
+      "id": "pt-br-nf",
+      "locale": "pt-BR",
+      "label": "Português (Brasil)",
+      "version": "2026.11.07.1",
+      "url": "pt-BR.2026.11.07.1.nf.json",
+      "sha256": "e535baac0c4d6241c59290ee516a546e7126c41a0ad3a418fa1626a620929b27",
+      "bytes": 31888,
+      "entries": 14,
+      "source": "nf"
     }
   ]
 }
