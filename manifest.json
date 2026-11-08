@@ -92,11 +92,11 @@
       "id": "pt-br-phb",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.1",
-      "url": "pt-BR.2026.11.03.1.phb.json",
-      "sha256": "d99dda55fa2c26a42100af443a8aad7e70a6c463eaa4db72ba46bb4ff7db9744",
-      "bytes": 85517,
-      "entries": 69,
+      "version": "2026.11.08.1",
+      "url": "pt-BR.2026.11.08.1.phb.json",
+      "sha256": "c9010ebdc146658fd4e9f074da36aca9ac9abe024d72eca31194c69b04f4be9f",
+      "bytes": 2603118,
+      "entries": 2190,
       "source": "phb"
     },
     {
