@@ -37,11 +37,11 @@
       "id": "pt-br-dmg",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.1",
-      "url": "pt-BR.2026.11.03.1.dmg.json",
-      "sha256": "7196467a59b3c384c6d8520eecb8bbee6fc7c34fd9cfeea1b4dc413b9f3d5702",
-      "bytes": 8534,
-      "entries": 4,
+      "version": "2026.11.07.2",
+      "url": "pt-BR.2026.11.07.2.dmg.json",
+      "sha256": "ec30785645a1c2a43fd4a5d1ac27afeef794a734b7db4a6f542dc48795c50716",
+      "bytes": 526028,
+      "entries": 558,
       "source": "dmg"
     },
     {
