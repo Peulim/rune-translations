@@ -191,11 +191,11 @@
       "id": "pt-br-xphb",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.3",
-      "url": "pt-BR.2026.11.03.3.xphb.json",
-      "sha256": "7df1f2394189f66e2894c69fab64bf3887ec3d3965656385fd96636c6b7d0364",
-      "bytes": 1975288,
-      "entries": 1660,
+      "version": "2026.11.09.1",
+      "url": "pt-BR.2026.11.09.1.xphb.json",
+      "sha256": "5b1f8c362ad547d5bce9fd8239c4f7a014cdfe64135d44e49bd21ceafb07d20c",
+      "bytes": 1997595,
+      "entries": 1693,
       "source": "xphb"
     },
     {
