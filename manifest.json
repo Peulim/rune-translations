@@ -230,45 +230,69 @@
       "id": "pt-br-fraif",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.07.1",
-      "url": "pt-BR.2026.11.07.1.fraif.json",
-      "sha256": "f5067279cf62c80c79186c879c8a24b8b89b5fa05047955ee80427163e38b8ee",
-      "bytes": 306956,
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.fraif.json",
+      "sha256": "e93874b3965895e6eef2fca8234660284a3566501415a7404c182d3ff74e4614",
+      "bytes": 307163,
       "entries": 60,
-      "source": "fraif"
+      "source": "fraif",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-lfl",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.07.1",
-      "url": "pt-BR.2026.11.07.1.lfl.json",
-      "sha256": "336b55a0d0e7ac2a77cd2652d726c5ec73ca9c86781a6da52c30de7307075464",
-      "bytes": 103939,
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.lfl.json",
+      "sha256": "8642361d19621c7075a1679b6982c149a7c196b17afe8bd2bd199ce7bd877a88",
+      "bytes": 103999,
       "entries": 27,
-      "source": "lfl"
+      "source": "lfl",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-abh",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.07.1",
-      "url": "pt-BR.2026.11.07.1.abh.json",
-      "sha256": "907290b705288fb7fdd3114ef186265ed49ff4dde344dd3f2369e74a16c20091",
-      "bytes": 73831,
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.abh.json",
+      "sha256": "62c01cfb6e47d6fb4368987a0c516dc33de4298c1b7b8c9a576cec38b265b4ea",
+      "bytes": 73861,
       "entries": 24,
-      "source": "abh"
+      "source": "abh",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-nf",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.07.1",
-      "url": "pt-BR.2026.11.07.1.nf.json",
-      "sha256": "e535baac0c4d6241c59290ee516a546e7126c41a0ad3a418fa1626a620929b27",
-      "bytes": 31888,
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.nf.json",
+      "sha256": "3b82a8b1121aa12f96a627757827bf80326ea7bea8516193518da23f74918a3a",
+      "bytes": 31913,
       "entries": 14,
-      "source": "nf"
+      "source": "nf",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     }
   ]
 }
