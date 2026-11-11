@@ -213,12 +213,18 @@
       "id": "pt-br-efa",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.07.1",
-      "url": "pt-BR.2026.11.07.1.efa.json",
-      "sha256": "66226b170c1c133629514af17ed2fb6942bf54d527bd583c8ba82ef7b6d5f103",
-      "bytes": 415690,
+      "version": "2026.11.11.5",
+      "url": "pt-BR.2026.11.11.5.efa.json",
+      "sha256": "85eb45fc49a79752209d73db5f2e6c25db31f320a7878aed86923e7d1463ee41",
+      "bytes": 416839,
       "entries": 171,
-      "source": "efa"
+      "source": "efa",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-fraif",
