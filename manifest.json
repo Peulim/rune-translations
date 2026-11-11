@@ -161,8 +161,8 @@
       "label": "Português (Brasil)",
       "version": "2026.11.11.1",
       "url": "pt-BR.2026.11.11.1.tce.json",
-      "sha256": "7fa34e47b46c9c20a9a3b0bb2fea99abe0e030b914e4f2b284df58d830080f50",
-      "bytes": 748633,
+      "sha256": "bc2556c41a7b776496d6fb37a2968837df06faf8024859f81d7eb5fb1a4de09d",
+      "bytes": 748472,
       "entries": 612,
       "source": "tce",
       "requires": {
