@@ -103,12 +103,18 @@
       "id": "pt-br-psa",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.1",
-      "url": "pt-BR.2026.11.03.1.psa.json",
-      "sha256": "5c0142c5cdf82a8e59e7bc5ca569c677c4d55d2eafe10b7717cc0e8faf5a477c",
-      "bytes": 25934,
-      "entries": 14,
-      "source": "psa"
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.psa.json",
+      "sha256": "fa1ec689f539c89d14107281e692c5ea1e7ecb79c8104fba1842b24bf247f320",
+      "bytes": 156519,
+      "entries": 62,
+      "source": "psa",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-psk",
@@ -169,12 +175,18 @@
       "id": "pt-br-xge",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.1",
-      "url": "pt-BR.2026.11.03.1.xge.json",
-      "sha256": "c88cd1a01a7a078e1a756402759d2975f6beee474eb19bed8b424904fd6d663f",
-      "bytes": 40856,
-      "entries": 43,
-      "source": "xge"
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.xge.json",
+      "sha256": "f3d430b46e685db4aa0908659792f3686a509a68680d407bebdf0bed850736e0",
+      "bytes": 436379,
+      "entries": 469,
+      "source": "xge",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-xmm",
