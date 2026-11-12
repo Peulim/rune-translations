@@ -15,12 +15,18 @@
       "id": "pt-br-au",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.1",
-      "url": "pt-BR.2026.11.03.1.au.json",
-      "sha256": "95ed383524ba713d4f9cbd7183f3a5c948628ac9798e7292a05df3f43834a4e2",
-      "bytes": 70961,
-      "entries": 66,
-      "source": "au"
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.au.json",
+      "sha256": "de45b7abbd2e98bc4da50b2be4ad676a89e02cb09824675257abd259417b96cc",
+      "bytes": 420427,
+      "entries": 243,
+      "source": "au",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-bgg",
@@ -70,12 +76,18 @@
       "id": "pt-br-frhof",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.1",
-      "url": "pt-BR.2026.11.03.1.frhof.json",
-      "sha256": "8d5448ba693704df8f6a8c45035e224189d83009ca6addbf02256170239efd06",
-      "bytes": 62279,
-      "entries": 64,
-      "source": "frhof"
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.frhof.json",
+      "sha256": "51a4082058e5c63b9df33cf8c71e6b6fb3bef5acc7a4827af4878b84c61dec77",
+      "bytes": 191688,
+      "entries": 162,
+      "source": "frhof",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-ftd",
@@ -120,12 +132,18 @@
       "id": "pt-br-psk",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.1",
-      "url": "pt-BR.2026.11.03.1.psk.json",
-      "sha256": "b4ff6b5cc4c28b5af1de4038562facf71c9204313281da80eef1dafa38e05aa2",
-      "bytes": 605,
-      "entries": 2,
-      "source": "psk"
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.psk.json",
+      "sha256": "b50ef94e23a6a022e782b7194fb10a90a66a7fcfb74a2549d477a57c38a22a59",
+      "bytes": 67282,
+      "entries": 18,
+      "source": "psk",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-rhw",
