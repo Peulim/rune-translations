@@ -65,12 +65,18 @@
       "id": "pt-br-egw",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.03.1",
-      "url": "pt-BR.2026.11.03.1.egw.json",
-      "sha256": "0824cbc849fb0090d912e89a66e19a1815d48934b317256ff6f9394e8d0b94ff",
-      "bytes": 1886,
-      "entries": 5,
-      "source": "egw"
+      "version": "2026.11.11.1",
+      "url": "pt-BR.2026.11.11.1.egw.json",
+      "sha256": "ecf6f2c05788346c0e52e39f0e75e9f7a125f50ab64dd390dbda2936d3244c6b",
+      "bytes": 422525,
+      "entries": 186,
+      "source": "egw",
+      "requires": {
+        "datasets": {
+          "srd-5.2.1": "5.2.1+lore.2",
+          "srd-5.2.1-creatures": "5.2.1"
+        }
+      }
     },
     {
       "id": "pt-br-frhof",
