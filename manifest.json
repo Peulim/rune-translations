@@ -5,11 +5,11 @@
       "id": "srd-pt-br",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.12.2",
-      "url": "pt-BR.2026.11.12.2.srd.json",
-      "sha256": "0497242fbc59a9801cf7845ea7395d441496e9bd10c5ec3f620992310402d6e2",
-      "bytes": 5075470,
-      "entries": 2521
+      "version": "2026.11.12.3",
+      "url": "pt-BR.2026.11.12.3.srd.json",
+      "sha256": "610dd01130bed7a670afcf8d85d9f0d218387187bbabc9725208e8654644ee3b",
+      "bytes": 5075828,
+      "entries": 2522
     },
     {
       "id": "pt-br-au",
@@ -239,11 +239,11 @@
       "id": "pt-br-xphb",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.12.2",
-      "url": "pt-BR.2026.11.12.2.xphb.json",
-      "sha256": "05f893aaead13d07a1cb120d02fcc7a880dc89bb651196bb5eea1e322af9c41e",
-      "bytes": 1997665,
-      "entries": 1693,
+      "version": "2026.11.12.3",
+      "url": "pt-BR.2026.11.12.3.xphb.json",
+      "sha256": "be52b1feb76e6c8df2e53b35192ad3be171ec29e1e9e353a8ed1c2ec4b98e93c",
+      "bytes": 1998023,
+      "entries": 1694,
       "source": "xphb"
     },
     {
