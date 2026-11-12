@@ -5,10 +5,10 @@
       "id": "srd-pt-br",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.10.30.12",
-      "url": "pt-BR.2026.10.30.12.json",
-      "sha256": "1a1eb4e05c959e457a70481eef546d1819c990d08edf25851cb4521612c08fdf",
-      "bytes": 5075395,
+      "version": "2026.11.11.2",
+      "url": "pt-BR.2026.11.11.2.srd.json",
+      "sha256": "bc20d70436988e1aeb8ffb98488a10df83965cac46ea07e73d8495b23a7d0b12",
+      "bytes": 5075404,
       "entries": 2521
     },
     {
@@ -222,9 +222,9 @@
       "id": "pt-br-xmm",
       "locale": "pt-BR",
       "label": "Português (Brasil)",
-      "version": "2026.11.11.3",
-      "url": "pt-BR.2026.11.11.3.xmm.json",
-      "sha256": "6d0c9e2b4e53381d52fd2dc7d7142f00b2698a54a4932a33cdd1d0c1bacd20d5",
+      "version": "2026.11.11.4",
+      "url": "pt-BR.2026.11.11.4.xmm.json",
+      "sha256": "3b6d79fddd066800dbfbe9603ea132f63d5e5a079df0a04cbdf4ba767414eb89",
       "bytes": 2674222,
       "entries": 503,
       "source": "xmm"
