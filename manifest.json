@@ -341,6 +341,17 @@
           "srd-5.2.1-creatures": "5.2.1"
         }
       }
+    },
+    {
+      "id": "pt-br-mpmm",
+      "locale": "pt-BR",
+      "label": "Português (Brasil)",
+      "version": "2026.11.14.2",
+      "url": "pt-BR.2026.11.14.2.mpmm.json",
+      "sha256": "26c570dd605c6dfbfab1f8dd2ba03d053b4e2120c5926075116a2a9d80765518",
+      "bytes": 45897,
+      "entries": 21,
+      "source": "mpmm"
     }
   ]
 }
