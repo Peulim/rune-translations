@@ -3,131 +3,229 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Política de Privacidade · Rune</title>
+<title>Política de privacidade · Rune</title>
+<meta name="description" content="Como o Rune usa seus dados: o que fica no aparelho, a sincronização, as cópias de segurança e como apagar tudo.">
 <style>
-  :root { color-scheme: light dark; --fg: #1d1b20; --muted: #5d5a63; --bg: #fff8f2; --line: #e2d6cc; --accent: #a4332c; }
-  @media (prefers-color-scheme: dark) { :root { --fg: #f1e9e4; --muted: #b8aea8; --bg: #15121a; --line: #3a3340; --accent: #ff8c82; } }
-  :root:not([data-theme="light"]) { }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 24px 18px 64px; }
-  h1 { font-size: 26px; margin: 8px 0 4px; }
-  h2 { font-size: 19px; margin: 32px 0 8px; color: var(--accent); }
-  .lang { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 8px; }
-  .lang a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: 14px; }
-  section { border-top: 1px solid var(--line); padding-top: 4px; }
-  p, li { color: var(--fg); }
-  .muted { color: var(--muted); font-size: 14px; }
-  :target { scroll-margin-top: 12px; }
+:root { color-scheme: light dark; --fg: #1d1b20; --muted: #5d5a63; --bg: #fff8f2; --line: #e2d6cc; --accent: #a4332c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --fg: #f1e9e4; --muted: #b8aea8; --bg: #15121a; --line: #3a3340; --accent: #ff8c82; } }
+:root[data-theme="dark"] { --fg: #f1e9e4; --muted: #b8aea8; --bg: #15121a; --line: #3a3340; --accent: #ff8c82; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+header h1 { font-size: 22px; margin: 8px 0 0; letter-spacing: 0.02em; }
+nav.lang { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 0; }
+nav.lang a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: 14px; }
+section { border-top: 1px solid var(--line); padding-top: 4px; margin-top: 36px; scroll-margin-top: 12px; }
+h2 { font-size: 26px; margin: 20px 0 4px; }
+h3 { font-size: 19px; margin: 28px 0 8px; color: var(--accent); }
+p, li { color: var(--fg); }
+.muted { color: var(--muted); font-size: 14px; margin: 2px 0; }
+a { color: var(--accent); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 6px 4px; vertical-align: top; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Política de Privacidade · Rune</h1>
-  <p class="muted">Última atualização: 5 de novembro de 2026.</p>
+<header>
+  <h1>Rune</h1>
   <nav class="lang" aria-label="Idioma">
-    <a href="#pt-BR">Português</a>
+    <a href="#pt">Português</a>
     <a href="#en">English</a>
     <a href="#es">Español</a>
   </nav>
+</header>
 
-  <section id="pt-BR">
-    <h2>Português (Brasil)</h2>
-    <p>O Rune é um aplicativo de criação de personagens e de apoio a jogos de RPG de mesa. Esta política explica quais dados o aplicativo usa e para quê.</p>
+<section id="pt" lang="pt-BR">
+<h2>Política de privacidade do Rune</h2>
+<p class="muted">Última atualização: 15 de novembro de 2026</p>
+<p class="muted">Responsável: Kevin Campos (pessoa física) · Contato: <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a></p>
+<p>O Rune é um aplicativo para criar personagens e apoiar partidas de RPG de mesa. Ele funciona no seu aparelho e, em segundo plano, guarda uma cópia dos seus personagens e campanhas num servidor, para que você os veja em outros aparelhos. Esta política explica o que fica em cada lugar, por quê e como apagar tudo.</p>
 
-    <h3>1. Dados que ficam no seu aparelho</h3>
-    <p>Personagens, rascunhos, campanhas, preferências, o catálogo de livros instalados e os arquivos que você importa ficam guardados somente no seu aparelho. O Rune não tem conta de usuário e não envia esses dados para nenhum servidor do desenvolvedor.</p>
-    <p>Os backups são arquivos que você mesmo exporta e guarda onde quiser. Quem decide se os envia ou compartilha é você.</p>
+<h3>1. O que fica no seu aparelho</h3>
+<p>Personagens, campanhas, preferências, o conteúdo de livros instalado e os arquivos que você importa ficam guardados no aparelho. As fotos de personagens e as imagens de campanha também ficam só no aparelho: elas nunca são enviadas ao servidor.</p>
 
-    <h3>2. Fotos de personagens</h3>
-    <p>Se você escolher uma foto para um personagem, o aplicativo usa a galeria do aparelho apenas para copiar a imagem escolhida. O aplicativo não acessa outras fotos e não pede permissão de microfone.</p>
+<h3>2. Conta e sincronização</h3>
+<ul>
+  <li><strong>Sem conta, nada sai do aparelho.</strong> Seus personagens e campanhas ficam só neste aparelho até você entrar com o Google ou com e-mail e senha. Quem já tinha uma conta anônima de antes continua sincronizando.</li>
+  <li><strong>Sincronização automática.</strong> Depois que você entra, personagens e campanhas são enviados ao servidor em segundo plano, sem nenhuma ação sua. O aplicativo não tem um interruptor para desligar a sincronização. Para parar, exclua a conta (seção 5).</li>
+  <li><strong>O que é enviado.</strong> Da ficha de cada personagem: nome, descrição, história, anotações, atributos, escolhas, itens, magias e recursos. Não vão a foto nem o texto dos livros, que o aparelho reconstrói a partir dos livros instalados. Das campanhas: NPCs, locais, sessões, notas, facções, missões, tabelas e blocos de estatísticas, sem as imagens.</li>
+  <li><strong>Identificadores.</strong> A conta, um identificador de aparelho sorteado no próprio aparelho (sem ligação com o nome ou o modelo dele) e as datas das alterações.</li>
+  <li><strong>Entrar com Google (opcional).</strong> Você pode ligar a conta a uma conta Google. O Google informa dados básicos dessa conta: identificador, e-mail, nome e foto de perfil. O serviço de autenticação guarda esses dados. O Rune mostra a foto na tela da conta, carregada direto dos servidores do Google, e não usa o nome. Se a conta Google já estiver ligada a um cadastro do Rune, o aplicativo avisa e você entra nesse cadastro.</li>
+  <li><strong>E-mail e senha (opcional).</strong> Se você adicionar e-mail e senha, guardamos o e-mail. A senha fica guardada pelo serviço de autenticação, como código protegido, e o Rune não a vê.</li>
+</ul>
 
-    <h3>3. Conexões com a internet</h3>
-    <ul>
-      <li><strong>Download de livros e imagens:</strong> o aplicativo baixa o conteúdo oficial e as traduções de um repositório público no GitHub. Para isso, o GitHub recebe o endereço de rede do seu aparelho, como em qualquer acesso a um site. Quem cuida desses dados é o GitHub, conforme a política dele.</li>
-      <li><strong>Tradução automática (opcional):</strong> o modelo de tradução do Google ML Kit é baixado dos servidores do Google uma única vez, com a sua confirmação, pelo Wi-Fi. O texto é traduzido no próprio aparelho e não é enviado ao Google.</li>
-      <li><strong>Formulário de feedback:</strong> ao tocar em "Enviar feedback", o aplicativo abre no navegador um formulário do Tally. As respostas que você enviar ficam com o Tally, conforme a política dele.</li>
-    </ul>
+<h3>3. Cópias de segurança diárias</h3>
+<p>Uma vez por dia, um serviço do Rune copia o conteúdo do servidor (as contas, com seus e-mails, e os personagens e campanhas como estão guardados lá) para um arquivo. O arquivo fica na Cloudflare por 30 dias e depois é apagado. As cópias servem para recuperar dados em caso de falha, e só o responsável pelo Rune pode acessá-las.</p>
+<p>Quando você exclui sua conta, os dados saem do servidor na hora, mas as cópias de até 30 dias continuam guardadas até expirarem.</p>
 
-    <h3>4. O que o Rune não faz</h3>
-    <ul>
-      <li>Não exibe anúncios.</li>
-      <li>Não usa ferramentas de análise, rastreamento ou perfil de uso.</li>
-      <li>Não vende nem compartilha dados.</li>
-      <li>Não coleta dados pessoais para o desenvolvedor.</li>
-    </ul>
+<h3>4. Onde os dados ficam e quem os trata</h3>
+<ul>
+  <li><strong>Supabase</strong> (banco de dados, autenticação e sincronização): projeto na região Leste dos EUA (Norte da Virgínia). Por isso os dados são transferidos para fora do Brasil.</li>
+  <li><strong>Cloudflare</strong> (hospedagem do site e guarda das cópias de segurança): pode tratar dados em outros países. Registra endereço IP e dados técnicos de acesso, conforme a política dela.</li>
+  <li><strong>GitHub</strong> (download de livros e traduções): recebe o endereço de rede do seu aparelho, como qualquer site. Vale a política do GitHub.</li>
+  <li><strong>Google</strong>: cuida do login, se você usá-lo. O modelo de tradução automática (Google ML Kit) é baixado uma vez, com a sua confirmação, pelo Wi-Fi. O texto é traduzido no aparelho e não é enviado ao Google.</li>
+  <li><strong>Tally</strong> (formulário de feedback): só se você tocar em "Enviar feedback" e enviar o formulário. As respostas ficam com o Tally.</li>
+</ul>
+<p>O Rune não usa anúncios, ferramentas de análise, de rastreamento nem de relatório automático de erros. Se o aplicativo travar, a tela de erro pode compartilhar o registro da falha, mas só se você escolher compartilhar.</p>
 
-    <h3>5. Crianças</h3>
-    <p>O Rune não coleta dados de ninguém, inclusive de crianças.</p>
+<h3>5. Como apagar seus dados</h3>
+<ul>
+  <li><strong>Excluir a conta.</strong> Em <strong>Conta</strong>, toque em <strong>Excluir conta</strong> e confirme. O servidor apaga na hora a sua conta, os seus personagens e as suas campanhas. Os dados deste aparelho continuam aqui, sem sincronização. Neste aparelho, o Rune não cria outra conta sozinho até você entrar em uma conta.</li>
+  <li><strong>Apagar os dados do aparelho.</strong> Em <strong>Configurações › Armazenamento › Apagar todos os meus dados</strong>, o aparelho perde personagens, campanhas e conteúdo instalado. As exclusões também são enviadas ao servidor, onde personagens e campanhas apagados ficam só como marca de exclusão, sem conteúdo, por até 90 dias.</li>
+  <li><strong>Desinstalar o aplicativo</strong> apaga os dados guardados no aparelho.</li>
+  <li><strong>Pedido por e-mail.</strong> Se não conseguir pelo aplicativo, escreva para runestudios2@gmail.com.</li>
+</ul>
 
-    <h3>6. Alterações e contato</h3>
-    <p>Se esta política mudar, a nova versão será publicada nesta página, com a data de atualização. Para perguntas, escreva para <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a>.</p>
-  </section>
+<h3>6. Por quanto tempo guardamos</h3>
+<ul>
+  <li>Enquanto a conta existir.</li>
+  <li>Personagens e campanhas excluídos ficam no servidor só como marca de exclusão, sem conteúdo, por até 90 dias. Depois são apagados de vez.</li>
+  <li>Cópias de segurança: até 30 dias.</li>
+</ul>
 
-  <section id="en">
-    <h2>English</h2>
-    <p>Rune is an app for creating characters and supporting tabletop RPG play. This policy explains what data the app uses and why.</p>
+<h3>7. Segurança</h3>
+<p>Cada conta só lê e altera os próprios dados: o servidor aplica regras de acesso por linha e recusa escritas de outra conta. A comunicação usa HTTPS. A chave pública do aplicativo não dá acesso privilegiado a ninguém. O acesso às cópias de segurança exige um token secreto, guardado fora do código.</p>
 
-    <h3>1. Data that stays on your device</h3>
-    <p>Characters, drafts, campaigns, preferences, the catalog of installed books and any files you import are stored only on your device. Rune has no user accounts and does not send this data to any server of the developer.</p>
-    <p>Backups are files you export yourself and keep wherever you choose. You decide whether to send or share them.</p>
+<h3>8. Seus direitos</h3>
+<p>Pela Lei Geral de Proteção de Dados (LGPD), você pode pedir acesso aos seus dados, correção, exclusão, portabilidade e informações sobre com quem os compartilhamos. Use a exclusão de conta no aplicativo ou escreva para runestudios2@gmail.com. <strong>Respondemos em até 15 dias.</strong></p>
 
-    <h3>2. Character photos</h3>
-    <p>If you pick a photo for a character, the app reads the chosen image from your gallery only to copy it. It does not access other photos and does not request microphone permission.</p>
+<h3>9. Crianças</h3>
+<p>O Rune não é destinado a crianças e não coleta conscientemente dados de crianças. Se você é responsável por uma criança que usou o Rune e quer apagar os dados dela, escreva para o contato acima.</p>
 
-    <h3>3. Internet connections</h3>
-    <ul>
-      <li><strong>Downloading books and images:</strong> the app downloads official content and translations from a public repository on GitHub. GitHub receives your device's network address, as with any website. GitHub's privacy policy governs that data.</li>
-      <li><strong>Automatic translation (optional):</strong> the Google ML Kit translation model is downloaded from Google’s servers once, after you confirm, over Wi-Fi. The text is translated on your device and is not sent to Google.</li>
-      <li><strong>Feedback form:</strong> when you tap "Send feedback", the app opens a Tally form in your browser. The answers you submit are handled by Tally, under its privacy policy.</li>
-    </ul>
+<h3>10. Mudanças nesta política</h3>
+<p>Se esta política mudar, a nova versão será publicada nesta página, com a data de atualização. Avisaremos no aplicativo antes de a mudança valer.</p>
 
-    <h3>4. What Rune does not do</h3>
-    <ul>
-      <li>It shows no advertising.</li>
-      <li>It uses no analytics, tracking or usage profiling tools.</li>
-      <li>It does not sell or share data.</li>
-      <li>It does not collect personal data for the developer.</li>
-    </ul>
+<h3>11. Contato</h3>
+<p>Responsável: Kevin Campos (pessoa física) · E-mail: <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a></p>
+</section>
 
-    <h3>5. Children</h3>
-    <p>Rune does not collect data from anyone, including children.</p>
+<section id="en" lang="en">
+<h2>Rune privacy policy</h2>
+<p class="muted">Last updated: November 15, 2026</p>
+<p class="muted">Controller: Kevin Campos (individual) · Contact: <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a></p>
+<p>Rune is an app for creating characters and supporting tabletop RPG play. It works on your device and, in the background, keeps a copy of your characters and campaigns on a server, so you can see them on other devices. This policy explains what stays where, why, and how to erase everything.</p>
 
-    <h3>6. Changes and contact</h3>
-    <p>If this policy changes, the new version will be published on this page with the update date. For questions, write to <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a>.</p>
-  </section>
+<h3>1. What stays on your device</h3>
+<p>Characters, campaigns, preferences, the content of installed books, and files you import stay on your device. Character photos and campaign images also stay only on the device: they are never sent to the server.</p>
 
-  <section id="es">
-    <h2>Español</h2>
-    <p>Rune es una aplicación para crear personajes y apoyar partidas de rol de mesa. Esta política explica qué datos usa la aplicación y para qué.</p>
+<h3>2. Account and sync</h3>
+<ul>
+  <li><strong>Without an account, nothing leaves the device.</strong> Your characters and campaigns stay only on this device until you sign in with Google or with e-mail and password. Anyone who already had an earlier anonymous account keeps syncing.</li>
+  <li><strong>Automatic sync.</strong> After you sign in, characters and campaigns are sent to the server in the background, without any action from you. The app has no switch to turn sync off. To stop it, delete your account (section 5).</li>
+  <li><strong>What is sent.</strong> From each character sheet: name, description, backstory, notes, abilities, choices, items, spells and resources. The photo and the text of books are not sent: the device rebuilds the text from the books installed. From campaigns: NPCs, locations, sessions, notes, factions, quests, tables and stat blocks, without images.</li>
+  <li><strong>Identifiers.</strong> The account, a device identifier randomly generated on the device (not linked to its name or model), and the dates of changes.</li>
+  <li><strong>Sign in with Google (optional).</strong> You can link your account to a Google account. Google provides basic account data: identifier, e-mail, name and profile picture. The authentication service stores this data. Rune shows the picture on the account screen, loaded directly from Google's servers, and does not use the name. If that Google account is already linked to a Rune account, the app tells you and you sign in to that account.</li>
+  <li><strong>E-mail and password (optional).</strong> If you add an e-mail and password, we store the e-mail. The password is kept by the authentication service as a protected code (hash), and Rune cannot see it.</li>
+</ul>
 
-    <h3>1. Datos que permanecen en tu dispositivo</h3>
-    <p>Personajes, borradores, campañas, preferencias, el catálogo de libros instalados y los archivos que importas se guardan solo en tu dispositivo. Rune no tiene cuentas de usuario y no envía estos datos a ningún servidor del desarrollador.</p>
-    <p>Las copias de seguridad son archivos que exportas tú mismo y guardas donde quieras. Decides tú si los envías o compartes.</p>
+<h3>3. Daily backups</h3>
+<p>Once a day, a Rune service copies the server's content (accounts, with their e-mails, and characters and campaigns as stored there) into a file. The file is kept on Cloudflare for 30 days and then deleted. Backups exist to recover data after a failure, and only the person responsible for Rune can access them.</p>
+<p>When you delete your account, the data leaves the server immediately, but backups of up to 30 days remain until they expire.</p>
 
-    <h3>2. Fotos de personajes</h3>
-    <p>Si eliges una foto para un personaje, la aplicación lee la imagen elegida de tu galería solo para copiarla. No accede a otras fotos y no pide permiso de micrófono.</p>
+<h3>4. Where data is kept and who processes it</h3>
+<ul>
+  <li><strong>Supabase</strong> (database, authentication and sync): project in the East US region (North Virginia). Data is therefore transferred outside Brazil.</li>
+  <li><strong>Cloudflare</strong> (website hosting and backup storage): may process data in other countries. It records IP addresses and technical access data, under its policy.</li>
+  <li><strong>GitHub</strong> (download of books and translations): receives your device's network address, like any website. GitHub's policy applies.</li>
+  <li><strong>Google</strong>: handles sign-in, if you use it. The automatic translation model (Google ML Kit) is downloaded once, with your confirmation, over Wi-Fi. Text is translated on the device and is not sent to Google.</li>
+  <li><strong>Tally</strong> (feedback form): only if you tap "Send feedback" and submit the form. The answers are kept by Tally.</li>
+</ul>
+<p>Rune uses no advertising, analytics, tracking tools or automatic crash reporting. If the app crashes, the error screen can share the crash record, but only if you choose to share it.</p>
 
-    <h3>3. Conexiones a internet</h3>
-    <ul>
-      <li><strong>Descarga de libros e imágenes:</strong> la aplicación descarga contenido oficial y traducciones de un repositorio público en GitHub. GitHub recibe la dirección de red de tu dispositivo, como cualquier sitio web. Esos datos se rigen por la política de privacidad de GitHub.</li>
-      <li><strong>Traducción automática (opcional):</strong> el modelo de traducción de Google ML Kit se descarga de los servidores de Google una sola vez, tras tu confirmación, por Wi-Fi. El texto se traduce en tu dispositivo y no se envía a Google.</li>
-      <li><strong>Formulario de comentarios:</strong> al tocar "Enviar comentarios", la aplicación abre en el navegador un formulario de Tally. Las respuestas que envíes las maneja Tally, según su política de privacidad.</li>
-    </ul>
+<h3>5. How to erase your data</h3>
+<ul>
+  <li><strong>Delete the account.</strong> Under <strong>Account</strong>, tap <strong>Delete account</strong> and confirm. The server immediately deletes your account, characters and campaigns. The data on this device stays here, without sync. On this device, Rune will not create another account by itself until you sign in to an account.</li>
+  <li><strong>Erase data on the device.</strong> Under <strong>Settings › Storage › Delete all my data</strong>, the device loses characters, campaigns and installed content. Deletions are also sent to the server, where deleted characters and campaigns remain only as deletion markers, with no content, for up to 90 days.</li>
+  <li><strong>Uninstalling the app</strong> erases the data stored on the device.</li>
+  <li><strong>Request by e-mail.</strong> If you cannot do it in the app, write to runestudios2@gmail.com.</li>
+</ul>
 
-    <h3>4. Lo que Rune no hace</h3>
-    <ul>
-      <li>No muestra publicidad.</li>
-      <li>No usa herramientas de análisis, rastreo ni perfil de uso.</li>
-      <li>No vende ni comparte datos.</li>
-      <li>No recoge datos personales para el desarrollador.</li>
-    </ul>
+<h3>6. How long we keep data</h3>
+<ul>
+  <li>While the account exists.</li>
+  <li>Deleted characters and campaigns remain on the server only as deletion markers, with no content, for up to 90 days. Then they are permanently deleted.</li>
+  <li>Backups: up to 30 days.</li>
+</ul>
 
-    <h3>5. Menores</h3>
-    <p>Rune no recoge datos de nadie, incluidos los menores.</p>
+<h3>7. Security</h3>
+<p>Each account can only read and change its own data: the server applies row-level access rules and refuses writes from other accounts. Communication uses HTTPS. The app's public key does not grant privileged access to anyone. Access to backups requires a secret token, kept outside the code.</p>
 
-    <h3>6. Cambios y contacto</h3>
-    <p>Si esta política cambia, la nueva versión se publicará en esta página con la fecha de actualización. Para preguntas, escribe a <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a>.</p>
-  </section>
+<h3>8. Your rights</h3>
+<p>Under Brazil's General Data Protection Law (LGPD), you can ask for access to your data, correction, deletion, portability and information about who we share it with. Use account deletion in the app or write to runestudios2@gmail.com. <strong>We reply within 15 days.</strong></p>
+
+<h3>9. Children</h3>
+<p>Rune is not intended for children and does not knowingly collect children's data. If you are the parent or guardian of a child who used Rune and want their data erased, write to the contact above.</p>
+
+<h3>10. Changes to this policy</h3>
+<p>If this policy changes, the new version will be published on this page with the update date. We will inform you in the app before the change takes effect.</p>
+
+<h3>11. Contact</h3>
+<p>Controller: Kevin Campos (individual) · E-mail: <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a></p>
+</section>
+
+<section id="es" lang="es">
+<h2>Política de privacidad de Rune</h2>
+<p class="muted">Última actualización: 15 de noviembre de 2026</p>
+<p class="muted">Responsable: Kevin Campos (persona física) · Contacto: <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a></p>
+<p>Rune es una aplicación para crear personajes y apoyar partidas de rol de mesa. Funciona en tu dispositivo y, en segundo plano, guarda una copia de tus personajes y campañas en un servidor, para que los veas en otros dispositivos. Esta política explica qué queda en cada lugar, por qué y cómo borrar todo.</p>
+
+<h3>1. Lo que queda en tu dispositivo</h3>
+<p>Personajes, campañas, preferencias, el contenido de los libros instalados y los archivos que importas se quedan en el dispositivo. Las fotos de personajes y las imágenes de campaña también se quedan solo en el dispositivo: nunca se envían al servidor.</p>
+
+<h3>2. Cuenta y sincronización</h3>
+<ul>
+  <li><strong>Sin cuenta, nada sale del dispositivo.</strong> Tus personajes y campañas se quedan solo en este dispositivo hasta que entres con Google o con correo y contraseña. Quien ya tenía una cuenta anónima de antes sigue sincronizando.</li>
+  <li><strong>Sincronización automática.</strong> Después de que entres, personajes y campañas se envían al servidor en segundo plano, sin ninguna acción tuya. La aplicación no tiene un interruptor para desactivar la sincronización. Para detenerla, elimina la cuenta (sección 5).</li>
+  <li><strong>Qué se envía.</strong> De la ficha de cada personaje: nombre, descripción, historia, notas, atributos, elecciones, objetos, conjuros y recursos. No se envían la foto ni el texto de los libros: el dispositivo reconstruye el texto a partir de los libros instalados. De las campañas: PNJ, lugares, sesiones, notas, facciones, misiones, tablas y bloques de estadísticas, sin imágenes.</li>
+  <li><strong>Identificadores.</strong> La cuenta, un identificador del dispositivo generado al azar en el propio dispositivo (no vinculado a su nombre ni a su modelo) y las fechas de los cambios.</li>
+  <li><strong>Entrar con Google (opcional).</strong> Puedes vincular tu cuenta a una cuenta de Google. Google informa datos básicos de esa cuenta: identificador, correo, nombre y foto de perfil. El servicio de autenticación guarda esos datos. Rune muestra la foto en la pantalla de la cuenta, cargada directamente desde los servidores de Google, y no usa el nombre. Si esa cuenta de Google ya está vinculada a una cuenta de Rune, la aplicación te avisa y entras en esa cuenta.</li>
+  <li><strong>Correo y contraseña (opcional).</strong> Si añades correo y contraseña, guardamos el correo. La contraseña queda guardada por el servicio de autenticación como código protegido (hash), y Rune no puede verla.</li>
+</ul>
+
+<h3>3. Copias de seguridad diarias</h3>
+<p>Una vez al día, un servicio de Rune copia el contenido del servidor (las cuentas, con sus correos, y los personajes y campañas tal como están guardados allí) en un archivo. El archivo se guarda en Cloudflare durante 30 días y después se borra. Las copias sirven para recuperar datos tras un fallo, y solo la persona responsable de Rune puede acceder a ellas.</p>
+<p>Cuando eliminas tu cuenta, los datos salen del servidor de inmediato, pero las copias de hasta 30 días permanecen hasta que caducan.</p>
+
+<h3>4. Dónde se guardan los datos y quién los trata</h3>
+<ul>
+  <li><strong>Supabase</strong> (base de datos, autenticación y sincronización): proyecto en la región Este de EE. UU. (Norte de Virginia). Por eso los datos se transfieren fuera de Brasil.</li>
+  <li><strong>Cloudflare</strong> (alojamiento del sitio y guarda de las copias de seguridad): puede tratar datos en otros países. Registra direcciones IP y datos técnicos de acceso, según su política.</li>
+  <li><strong>GitHub</strong> (descarga de libros y traducciones): recibe la dirección de red de tu dispositivo, como cualquier sitio web. Se aplica la política de GitHub.</li>
+  <li><strong>Google</strong>: gestiona el inicio de sesión, si lo usas. El modelo de traducción automática (Google ML Kit) se descarga una vez, con tu confirmación, por Wi-Fi. El texto se traduce en el dispositivo y no se envía a Google.</li>
+  <li><strong>Tally</strong> (formulario de comentarios): solo si tocas "Enviar comentarios" y envías el formulario. Las respuestas quedan en Tally.</li>
+</ul>
+<p>Rune no usa publicidad, herramientas de análisis, de seguimiento ni de informe automático de errores. Si la aplicación se bloquea, la pantalla de error puede compartir el registro del fallo, pero solo si decides compartirlo.</p>
+
+<h3>5. Cómo borrar tus datos</h3>
+<ul>
+  <li><strong>Eliminar la cuenta.</strong> En <strong>Cuenta</strong>, toca <strong>Eliminar cuenta</strong> y confirma. El servidor borra de inmediato tu cuenta, tus personajes y tus campañas. Los datos de este dispositivo siguen aquí, sin sincronización. En este dispositivo, Rune no crea otra cuenta por sí mismo hasta que inicies sesión en una cuenta.</li>
+  <li><strong>Borrar los datos del dispositivo.</strong> En <strong>Configuración › Almacenamiento › Borrar todos mis datos</strong>, el dispositivo pierde personajes, campañas y contenido instalado. Los borrados también se envían al servidor, donde los personajes y campañas eliminados quedan solo como marca de borrado, sin contenido, durante hasta 90 días.</li>
+  <li><strong>Desinstalar la aplicación</strong> borra los datos guardados en el dispositivo.</li>
+  <li><strong>Solicitud por correo.</strong> Si no puedes hacerlo desde la aplicación, escribe a runestudios2@gmail.com.</li>
+</ul>
+
+<h3>6. Cuánto tiempo guardamos los datos</h3>
+<ul>
+  <li>Mientras exista la cuenta.</li>
+  <li>Los personajes y campañas eliminados quedan en el servidor solo como marca de borrado, sin contenido, durante hasta 90 días. Después se borran definitivamente.</li>
+  <li>Copias de seguridad: hasta 30 días.</li>
+</ul>
+
+<h3>7. Seguridad</h3>
+<p>Cada cuenta solo puede leer y cambiar sus propios datos: el servidor aplica reglas de acceso por fila y rechaza escrituras de otras cuentas. La comunicación usa HTTPS. La clave pública de la aplicación no da acceso privilegiado a nadie. El acceso a las copias de seguridad requiere un token secreto, guardado fuera del código.</p>
+
+<h3>8. Tus derechos</h3>
+<p>Según la Ley General de Protección de Datos de Brasil (LGPD), puedes pedir acceso a tus datos, corrección, eliminación, portabilidad e información sobre con quién los compartimos. Usa la eliminación de cuenta en la aplicación o escribe a runestudios2@gmail.com. <strong>Respondemos en un plazo de 15 días.</strong></p>
+
+<h3>9. Niños</h3>
+<p>Rune no está dirigido a niños y no recoge a sabiendas datos de niños. Si eres responsable de un niño que usó Rune y quieres borrar sus datos, escribe al contacto indicado arriba.</p>
+
+<h3>10. Cambios en esta política</h3>
+<p>Si esta política cambia, la nueva versión se publicará en esta página, con la fecha de actualización. Te avisaremos en la aplicación antes de que el cambio entre en vigor.</p>
+
+<h3>11. Contacto</h3>
+<p>Responsable: Kevin Campos (persona física) · Correo: <a href="mailto:runestudios2@gmail.com">runestudios2@gmail.com</a></p>
+</section>
 </main>
 </body>
 </html>
